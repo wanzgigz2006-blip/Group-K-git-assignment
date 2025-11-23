@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title>wxn.com</title>
+        <style>
+            body{
+                background-attachment: fixed;background-color:darkslategrey;
+            }
+           header{background-color: black;padding:20px 0;margin: 0;text-align: center;}
+           nav ul{list-style: none;padding: 0;display: flex;justify-content: center;gap: 90px;}
+           nav ul li{display: inline;}
+           nav ul li a{text-decoration: none;color: white;}
+           nav ul li a:hover{background-color: lime;transition-duration: 5s;transition-delay: 90s;}
+            p{text-align: center;font-size: 50PX;}
+            form{
+                text-align: center;font-size: large;size: 20px;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="b.html">HOME</a></li>
+                    <li><a href="c.html">ABOUT</a></li>
+                    <li><a href="d.html">T&CS</a></li>
+                    <li><a href="e.html"><button>sign in</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <p id="p1"><span style="color: red;">G</span><span style="color:orange;">O</span><span style="color: yellow;">O</span><span style="color:green;">G</span><span style="color: blue;">L</span><span style="color: indigo;">E.</span><span style="color:violet;">COM</span></p>
+                <hr style="padding: 0px 0px"color="red"><br><br><br><br>
+            <form action="1.html"method="get"target="_blank"autocomplete="on"validate>
+                <label for="surname">Enter surname</label><br><br>
+                <input type="text"name="surname"placeholder="surname"autocomplete="on"novalidate required autofocus><br><br>
+                <label for="lastname">Enter lastname</label><br><br>
+                <input type="text"name="lastname"placeholder="lastname"autocomplete="on"novalidate required autofocus><br><br>
+                <label for="email">Enter email</label><br><br>
+                <input type="email"name="email"autocomplete="on"placeholder="Email"validate required autofocus><br><br>
+                <label for="number">Enter contact</label><br><br>
+                <input type="tel"name="tel"autocomplete="on"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required max="10"min="10" placeholder="xxx-xxx-xxxx"><br><br>
+                <label for="password">Enter password</label><br><br>
+                <input  type="password"name="password"autocomplete="on"autofocus size="40"validate pattern="[0-9]{10}"placeholder="Enter password in number format"><br><br>
+                <label for="gender">Select your gender</label><br><br>
+                <span><input type="radio"name="gender"value="Male"><label for="Male">Male</label>&nbsp;&nbsp;&nbsp;
+                    <input type="radio"name="gender"value="Female"><label for="Female">Female</label></span><br><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit"name="submit"value="login">
+            </form>
+        </div>
+         
+    </body>
+</html>
